@@ -76,11 +76,4 @@ $academic-defensiveness-trim 请改写下面的中文摘要结果，只返回可
 
 在 Codex CLI 中输入 `/skills` 查找名称，或在新会话中试用上面的快速示例。找不到技能时，先核对实际运行环境和表中路径；能找到技能但打不开判例时，检查是否只复制了 `SKILL.md`。参见[Codex 官方技能文档](https://developers.openai.com/codex/skills)。
 
-## 手动上传到 GitHub
-
-解压后，在目标仓库选择 **Add file → Upload files**；空仓库可以点击 **uploading an existing file**。
-
-- **独立技能仓库：** 打开解压后的 `academic-defensiveness-trim` 文件夹，把**里面的全部文件和子目录**拖到仓库根目录。提交前应能看到根目录的 `README.md`、`SKILL.md` 和三个子目录；只上传 ZIP 不会在仓库首页展示这份说明。
-- **多技能集合：** 打开仓库中存放其他技能的目录，拖入**整个** `academic-defensiveness-trim` 文件夹，使它与其他技能并列，避免覆盖集合自己的 README。
-
-本技能参考了 [Academic Defensive Writing Auditor](https://github.com/Worigin0314/academic-defensive-writing-auditor) 对预防性辩解的分析，以及 [Academic Humanizer](https://github.com/AIScientists-Dev/academic-humanizer) 对证据强度和作者语气的处理。发布时将[来源与许可记录](references/sources.md)一并保留。
+本技能参考了 [Academic Defensive Writing Auditor](https://github.com/Worigin0314/academic-defensive-writing-auditor) 对预防性辩解的分析，以及 [Academic Humanizer](https://github.com/AIScientists-Dev/academic-humanizer) 对证据强度和作者语气的处理。
