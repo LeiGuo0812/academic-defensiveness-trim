@@ -1,0 +1,13 @@
+interface:
+  display_name: academic-defensiveness-trim
+  short_description: 撰写或审校中英文论文，删去预防性辩解，保留证据边界与作者本意
+  default_prompt: 用 $academic-defensiveness-trim 修改以下论文段落，保留必要限定，给出可直接使用的修订稿。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
